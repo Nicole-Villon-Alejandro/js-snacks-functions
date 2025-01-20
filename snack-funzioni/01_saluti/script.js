@@ -12,4 +12,4 @@ function saluta(nome) {
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 
-console.log(saluta(nomeUtente)); // Output: Ciao Mario
+console.log(saluta(userName)); // Output: Ciao Mario
