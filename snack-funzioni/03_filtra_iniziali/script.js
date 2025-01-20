@@ -1,7 +1,7 @@
 /* Scrivi una funzione che accetti un'array di stringhe e una lettera e restituisca un array contenente solo le parole che iniziano con quella lettera */
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
-
+const arrayNomi = []
 
 // Dichiara la funzione qui.
 function estraiNomi( array, lettera ){
@@ -15,7 +15,7 @@ function estraiNomi( array, lettera ){
 
 
 // Invoca la funzione qui e stampa il risultato in console
-estraiNomi( names, "L")
+estraiNomi( names, "A")
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
